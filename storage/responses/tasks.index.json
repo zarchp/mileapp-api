@@ -1,0 +1,62 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Design login page",
+      "description": "Create a responsive login form with validation and error handling.",
+      "due_date": "2025-11-10",
+      "is_completed": false,
+      "completed_at": "2025-11-02 12:00:00",
+      "created_at": "2025-11-01 09:30:00",
+      "updated_at": "2025-11-03 14:45:00"
+    },
+    {
+      "id": 2,
+      "title": "Implement task CRUD API",
+      "description": "Setup endpoints for create, read, update, and delete using mock data.",
+      "due_date": "2025-11-12",
+      "is_completed": false,
+      "completed_at": "2025-11-02 12:00:00",
+      "created_at": "2025-11-02 10:15:00",
+      "updated_at": "2025-11-04 16:20:00"
+    },
+    {
+      "id": 3,
+      "title": "Integrate frontend with backend",
+      "description": "Connect Vue frontend with Laravel mock API using Axios.",
+      "due_date": "2025-11-14",
+      "is_completed": false,
+      "completed_at": "2025-11-02 12:00:00",
+      "created_at": "2025-11-03 11:00:00",
+      "updated_at": "2025-11-05 09:40:00"
+    },
+    {
+      "id": 4,
+      "title": "Add authentication flow",
+      "description": "Mock the login endpoint and protect task routes with token or session.",
+      "due_date": "2025-11-08",
+      "is_completed": false,
+      "completed_at": null,
+      "created_at": "2025-10-30 08:50:00",
+      "updated_at": "2025-11-02 17:10:00"
+    },
+    {
+      "id": 5,
+      "title": "Write documentation",
+      "description": "Document setup steps, endpoints, and deployment instructions.",
+      "due_date": "2025-11-15",
+      "is_completed": false,
+      "completed_at": null,
+      "created_at": "2025-11-04 13:25:00",
+      "updated_at": "2025-11-05 18:00:00"
+    }
+  ],
+  "meta": {
+    "total": 5,
+    "per_page": 10,
+    "current_page": 1,
+    "last_page": 1,
+    "from": 1,
+    "to": 5
+  }
+}
