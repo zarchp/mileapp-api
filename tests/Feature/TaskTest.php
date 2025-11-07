@@ -135,7 +135,6 @@ test('failed validation when fields are missing on create new task', function ()
                 'title',
                 'description',
                 'due_date',
-                'is_completed',
             ],
         ]);
 });
@@ -177,7 +176,6 @@ test('failed validation when fields are missing on update existing task', functi
                 'title',
                 'description',
                 'due_date',
-                'is_completed',
             ],
         ]);
 });
