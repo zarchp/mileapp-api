@@ -65,17 +65,44 @@ This fulfills **Requirement 3: MongoDB Index Script**, providing a sample indexi
 
 ## 🚀 How to Run
 
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/zarchp/mileapp-api.git
+   cd mileapp-api
+   ```
+
+1. Copy `.env.example` file:
+
+   ```bash
+   cp .env.example .env
+   ```
+
 1. Install dependencies:
+
    ```bash
    composer install
    ```
-2. Start the local development server:
+
+1. Generate the application key:
+
+   ```bash
+   php artisan key:generate
+   ```
+
+1. Run the test suite (Pest):
+
+   ```bash
+   ./vendor/bin/pest
+   ```
+
+1. Start the local development server:
 
    ```bash
    php artisan serve
    ```
 
-3. View the API documentation at:
+1. View the API documentation at:
 
    ```bash
    http://localhost:8000/docs
