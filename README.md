@@ -35,7 +35,7 @@ You can use any email/password combination that passes validation to simulate a 
    API documentation is generated using [Ovac iDoc](https://github.com/ovac/idoc) to produce an OpenAPI-compatible specification.  
    This allows the API to be viewed interactively through ReDoc at:
 
-   **➡️ [API Documentation – /docs](http://localhost:8000/docs)**
+   **➡️ [API Documentation – /docs](https://mileapp-api.anzar.dev/docs)**
 
 ---
 
@@ -88,6 +88,12 @@ This fulfills **Requirement 3: MongoDB Index Script**, providing a sample indexi
 
    ```bash
    php artisan key:generate
+   ```
+
+1. Run migration:
+
+   ```bash
+   php artisan migrate
    ```
 
 1. Run the test suite (Pest):
